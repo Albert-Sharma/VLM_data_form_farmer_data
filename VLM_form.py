@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from streamlit_gsheets import GSheetsConnection
 
-st.title("Capturing Farmer Data for VLM ")
+st.title("मुनाफ़ा मिले जयादा - इस बार बड़े सपनों का इरादा")
 
 conn = st.connection("gsheets", type=GSheetsConnection)
 
